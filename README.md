@@ -21,22 +21,23 @@ implement sidekiq
   
     cd sidekiq-test
     vi GemFile 
-     - add following lines 
-      gem 'httparty'
-      - MongoDB Wrapper
-      gem 'mongoid', '~> 5.0'
-      gem 'bson', '~> 3.0'
-      - Email Server
-      - gem 'aws-ses'
-      - AWS SDK
-      gem 'aws-sdk', '~> 2'
-      - Sinatra
-      gem 'sinatra'
-      - Sidekiq 
-      gem 'sidekiq'
-      - Sidekiq Failures
-      gem 'sidekiq-failures'
-      gem 'ruby-push-notifications'
+    #add following lines 
+    gem 'httparty'
+    #MongoDB Wrapper
+    gem 'mongoid', '~> 5.0'
+    gem 'bson', '~> 3.0'
+    #Email Server
+    gem 'aws-ses'
+    #AWS SDK
+    gem 'aws-sdk', '~> 2'
+    #Sinatra
+    gem 'sinatra'
+    #Sidekiq 
+    gem 'sidekiq'
+    #Sidekiq Failures
+    gem 'sidekiq-failures'
+    #app notifications
+    gem 'ruby-push-notifications'
 
 
 ##5. Install packages 
