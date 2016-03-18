@@ -6,16 +6,16 @@ implement sidekiq
 
   Check installation 
 
-  ruby -v 
+    ruby -v 
 
 ##2. Install Rails 
-   sudo gem install rails --no-ri --no-rdoc
+    sudo gem install rails --no-ri --no-rdoc
 
    Check installation    
-   rails -v 
+    rails -v 
 
 ##3. Create a new ruby project 
-  rails new sidekiq-test
+    rails new sidekiq-test
 
 ##4. Add packages in Gemfile 
   
@@ -45,10 +45,10 @@ implement sidekiq
 
 ##6. Start Rails server 
 
-    #rails s
+    rails s
 
 ##7. Install redis 
-      brew install redis  
+    brew install redis  
 
 ##8. Start redis server 
     redis-server
