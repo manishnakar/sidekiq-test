@@ -2,22 +2,22 @@
 implement sidekiq 
 
 
-#1. Install Ruby
+##1. Install Ruby
 
   Check installation 
 
   ruby -v 
 
-#2. Install Rails 
+##2. Install Rails 
    sudo gem install rails --no-ri --no-rdoc
 
    Check installation    
    rails -v 
 
-#3. Create a new ruby project 
+##3. Create a new ruby project 
   rails new sidekiq-test
 
-#4. Add packages in Gemfile 
+##4. Add packages in Gemfile 
   
     cd sidekiq-test
     vi GemFile 
@@ -39,20 +39,20 @@ implement sidekiq
       gem 'ruby-push-notifications'
 
 
-#5. Install packages 
+##5. Install packages 
     
     bundle install 
 
-#6. Start Rails server 
+##6. Start Rails server 
 
     #rails s
 
-#7. Install redis 
+##7. Install redis 
       brew install redis  
 
-#8. Start redis server 
+##8. Start redis server 
     redis-server
 
 
-#9 start sidekiq 
+##9 start sidekiq 
     bundle exec sidekiq -C config/sidekiq.yml
